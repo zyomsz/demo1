@@ -1,0 +1,11 @@
+cd /usr/app/four-core/zookeeper/bin
+./zkServer.sh start
+cd /usr/app/four-core/tomcat/bin
+./startup.sh
+cd /usr/app/four-core/activemq/bin
+./activemq start
+cd /usr/app/core/redis/bin
+./redis-server redis.conf 
+cd mysolr/tomcat8088/bin/
+./startup.sh
+cd /
